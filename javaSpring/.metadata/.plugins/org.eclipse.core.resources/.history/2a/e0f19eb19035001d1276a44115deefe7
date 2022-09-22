@@ -1,0 +1,15 @@
+package helloWorld;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//helloWorld
+		System.out.println("Hello World");
+
+		//ogrenciSayim
+		int ogrenciSayim = 3;
+		
+		System.out.println("ogrenci sayisi:" + ogrenciSayim);
+	}
+
+}

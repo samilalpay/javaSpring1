@@ -1,0 +1,23 @@
+package asalSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number=7;
+		
+		if(number!=0) {
+			if(number!=1) {
+				for(int i=2; i<number; i++) {
+					if(number%i!=0) {
+						number+=i;
+						System.out.println("asal sayi");
+					}else {
+						System.out.println("asal sayi degil");
+					}
+				}
+			}
+		}
+
+	}
+
+}

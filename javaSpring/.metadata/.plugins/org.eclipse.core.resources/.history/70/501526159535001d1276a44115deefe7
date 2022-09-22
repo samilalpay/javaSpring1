@@ -1,0 +1,62 @@
+package helloWorld;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//helloWorld
+		System.out.println("Hello World");
+
+		//ogrenciSayim
+		int ogrenciSayim = 3;
+		
+		System.out.println("ogrenci sayisi:" + ogrenciSayim);
+		
+		//mukemmelSayi
+		int sayi = 6;
+		int toplam=0;
+		for(int i=0; i<sayi; i++) {
+			if(sayi%i == 0) {
+				toplam=toplam+i;
+			}
+	}
+		if(sayi==toplam) {
+			System.out.println("Mukemmel sayi");
+		}else {
+			System.out.println("Mukemmel sayi degil");
+		}
+		
+		//arkadasSayi
+		
+		int sayi1 = 220;
+		int sayi2 = 284;
+		int toplam1=0;
+		int toplam2=0;
+		
+		
+		for(int j=0; j<sayi1; j++) {
+			if(sayi1%j==0) {
+			   toplam1=toplam1+j;
+			}
+		}
+		for(int k=0; k<sayi2; k++) {
+			if(sayi2%k==0) {
+				toplam2=toplam2+k;
+			}
+		}
+		
+		if(sayi1==toplam2 && sayi2==toplam1) {
+			System.out.println("Arkadas Sayi");
+		}else {
+			System.out.println("Arkadas sayilar degil");
+		}
+		
+		
+		
+		
+		
+		
+
+
+}
+	
+}

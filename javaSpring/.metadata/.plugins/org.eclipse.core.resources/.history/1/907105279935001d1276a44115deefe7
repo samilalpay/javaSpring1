@@ -1,0 +1,18 @@
+package arkadasSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//arkadasSayi
+		
+		int number1= 220;
+		int number2= 284;
+		int total1=0;
+		int total2=0;
+		
+		
+				
+				
+	}
+
+}

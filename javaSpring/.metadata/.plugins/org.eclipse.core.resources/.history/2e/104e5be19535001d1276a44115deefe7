@@ -1,0 +1,12 @@
+package mukemmelSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//mukemmelSayi
+		int sayi = 6;
+		int toplam=0;
+		
+	}
+
+}
